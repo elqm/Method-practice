@@ -11,7 +11,7 @@ Method practice
 		calc.checkMaxNumber(10,20);
 		System.out.println("10과 20의 합은 : " + calc.sumTwoNumber(10, 20));
 		System.out.println("10과 5의 차는 : " +calc.minusTwoNumber(10, 5));
-	}
+		}
 	
 [non-static 메소드 ver1]  //입력 값에 전달인자와 매개변수만 사용
 
