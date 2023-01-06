@@ -3,7 +3,7 @@ Method practice
 
 [main 메소드]
 
-public static void main(String[] args) {
+		public static void main(String[] args) {
 
 		Calculator calc = new Calculator();
 		calc.checkMethod();
@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	
 [non-static 메소드 ver1]  //입력 값에 전달인자와 매개변수만 사용
 
-public void checkMethod() {
+		public void checkMethod() {
 
 			System.out.println("메소드 호출 확인");
 			return;
@@ -46,7 +46,7 @@ public void checkMethod() {
   
 [non-static 메소드 ver2]  //입력 값에 Scanner도 사용
 
-public void checkMethod() {
+		public void checkMethod() {
 
 			System.out.println("메소드 호출 확인");
 			return;
